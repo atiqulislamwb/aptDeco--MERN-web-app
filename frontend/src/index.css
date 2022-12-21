@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.bg {
+  background-color: white !important;
+}
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.gradientText {
+  background: -webkit-linear-gradient(#ff5f3d, #fb923c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
